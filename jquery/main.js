@@ -57,15 +57,3 @@
 
 
 
-function show(elemnt)
-{
-    var elm = document.querySelector(element);
-    elm.style.display = "block";
-}
-
-function hide(elemnt)
-{
-    var elm = document.querySelector(element);
-    elm.style.display = "hide";
-}
-
