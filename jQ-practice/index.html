@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Practice</title>
+
+    <!-- <script src="./jquery-3.7.1.min.js"></script> -->
+    <!-- ye jquery.com se download kia hai local source pe then yahan attach kia hai -->
+
+
+</head>
+<body>
+    
+    <p></p>
+    
+    
+    
+    
+    
+    <!-- ye CDN link hai jo k jquery.com then minified se copy kia tha -->
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
+
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+    <script>
+
+        // document.get
+        console.log('jquery document is not ready');
+        $(document).ready(function(){
+            console.log('jquery document is ready');
+        });
+
+        $("p").html('this is text').css('color', 'red').fadeOut(5000, function(){
+            console.log('p is fadeout');
+        });
+
+
+
+
+
+        function ready() {
+            console.log(document.readyState);
+            if (document.readyState === "complete" || document.readyState === "interactive") {
+                console.log('Page is ready');   
+            }
+
+            setTimeout(()=>{
+                console.log(document.readyState);
+            }, 5000);
+        }
+
+        // ready();
+
+    </script>
+
+
+    <!-- <script>
+        $(document).ready(function(){
+            alert('hello');
+        });
+    </script> -->
+    <!-- ye local pe jquery ko download kr k code run kia hai test krny k lye k hmari jquery ki file attach hvi hai ya nahi. -->
+</body>
+</html>
