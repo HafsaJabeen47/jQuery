@@ -63,7 +63,21 @@ $(document).ready(function(){
 
 
 
-    // video 7: Keyboard Events:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 7    
+    // video 7: Keyboard Events:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 7
+    // keypress()
+    $('body').keypress(function(){
+        $(this).css('background-color', 'orange');
+    });
+
+    // keyup()
+    $('body').keyup(function(){
+        $(this).css('background-color', 'green');
+    });
+
+    // keydown()
+    $('body').keydown(function(){
+        $(this).css('background-color', 'black');
+    });
 
 
 
