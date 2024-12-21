@@ -71,13 +71,70 @@ $(document).ready(function(){
 
     // keyup()
     $('body').keyup(function(){
-        $(this).css('background-color', 'green');
+        // $(this).css('background-color', 'green');
     });
 
     // keydown()
     $('body').keydown(function(){
-        $(this).css('background-color', 'black');
+        // $(this).css('background-color', 'grey');
     });
+
+
+
+
+    // video 8: Form Events:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 8
+    // focus()
+    $('#name, #class, #country, #formbtn').focus(function(){
+        $(this).css('background-color', '#cbd1ca');
+        $(this).css('border', '1px solid green');
+        $(this).css('border-radius', '3px');
+    });
+
+    // blur()
+    $('#name, #class, #country, #formbtn').blur(function(){
+        $(this).css('background-color', '');
+        $(this).css('border', '1px solid green');
+        $(this).css('border-radius', '3px');
+    });
+
+    // change()
+    $('#country ').change(function(){
+        $(this).css('background-color', 'pink');
+        $(this).css('border', '1px solid green');
+        $(this).css('border-radius', '3px');
+
+        let a = $(this).val();
+        $('#formtest').html(a);
+    });
+
+
+    // select()
+    $('#name, #class').select(function(){
+        $(this).css('background-color', 'yellow');
+        $(this).css('border', '1px solid green');
+        $(this).css('border-radius', '3px');
+    });
+
+
+    // submit()
+    $('#form').submit(function(){
+        let a = $('#name, #class').val();
+        $('#formtest').html(a);
+    });
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -13,3 +13,21 @@
     gap: 20px;
     background-color: pink;
 }
+
+#form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+
+#formbtn{
+    padding: 5px 10px;
+}
+
+#formtest{
+    width: 350px;
+    border: 2px solid red;
+    padding: 10px;
+}
