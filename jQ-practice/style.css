@@ -43,4 +43,13 @@
     border: 1px solid black;
     background-color: pink;
     margin-top: 20px;
+    margin-left: 20px;
+}
+
+#setBtn{
+    margin: 20px;
+}
+
+.red{
+    color: red;
 }

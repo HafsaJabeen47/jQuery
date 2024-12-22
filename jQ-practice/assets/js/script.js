@@ -159,6 +159,23 @@ $(document).ready(function(){
 
 
 
+    // video 11: jQuery Set Methods:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11
+    // text()
+    $('#setBtn').click(function(){
+        $('#getbox h2').text('Hello World!');
+        $('#getbox p').text('This is new text.');
+        // html()
+        $('#getbox p').html('This <b>is new</b> text.');
+
+        // attr()
+        $('#getbox h2').attr('class', 'red');
+        // val() iski mjy know how hai. so mene practice nahi kia.
+    });
+
+
+
+    // video 12: jQuery addClass & removeClass Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12
+
 
     
 
