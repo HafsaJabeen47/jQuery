@@ -31,3 +31,16 @@
     border: 2px solid red;
     padding: 10px;
 }
+
+
+.gettest{
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    background-color: pink;
+    margin-top: 20px;
+}

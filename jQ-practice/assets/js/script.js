@@ -2,12 +2,12 @@
 
 $(document).ready(function(){
 
-    // video: 4 basic syntax:               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4
+    // video: 4 basic syntax:               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 4
     let a = $('#p').html();
     console.log(a)
 
 
-    // video: 5 DOM selectors:               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 5
+    // video: 5 DOM selectors:               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 5
     $('#list').css('color', 'red');
 
     $('#list li:even').css('border', '1px solid green');
@@ -26,7 +26,7 @@ $(document).ready(function(){
 
 
 
-    // video: 6 Mouse Events:              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 6
+    // video: 6 Mouse Events:              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 6
     // click()
     $('.box').click(function(){
         $('.box').css('background-color', 'green');
@@ -63,7 +63,7 @@ $(document).ready(function(){
 
 
 
-    // video 7: Keyboard Events:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 7
+    // video 7: Keyboard Events:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 7
     // keypress()
     $('body').keypress(function(){
         $(this).css('background-color', 'orange');
@@ -82,7 +82,7 @@ $(document).ready(function(){
 
 
 
-    // video 8: Form Events:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 8
+    // video 8: Form Events:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 8
     // focus()
     $('#name, #class, #country, #formbtn').focus(function(){
         $(this).css('background-color', '#cbd1ca');
@@ -117,10 +117,48 @@ $(document).ready(function(){
 
 
     // submit()
-    $('#form').submit(function(){
+    $('#form').submit(function(e){
+        e.preventdefault();
         let a = $('#name, #class').val();
         $('#formtest').html(a);
     });
+
+
+
+
+    // video 9: Window Events:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 9
+    // scroll()
+    $(window).scroll(function(){
+        console.log('This is scrolling window event');
+    });
+
+
+    // resize()
+    $(window).resize(function(){
+        console.log('This is resizing window event');
+    });
+
+
+
+
+    // video 10: jQuery Get Methods:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10
+    // html()
+    let box = $('#getbox').html();
+    console.log(box);
+
+    // text()
+    let textBox = $('#getbox p').text();
+    console.log(textBox);
+
+    // attr()
+    let getAttr = $('#getbox').attr('class');
+    console.log(getAttr);
+
+    // val()
+
+
+
+
 
     
 
