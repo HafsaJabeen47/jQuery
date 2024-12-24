@@ -175,6 +175,26 @@ $(document).ready(function(){
 
 
     // video 12: jQuery addClass & removeClass Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12
+    // addClass()
+    $('#add-class').click(function(){
+        $('.add-remove-class').addClass('first red');
+    });
+
+    // removeClass()
+    $('#remove-class').click(function(){
+        $('.add-remove-class').removeClass('first red');
+    });
+
+    // toggleClass()
+    $('#toggle-class').click(function(){
+        $('.add-remove-class').toggleClass('first red');
+    });
+
+
+
+
+    // video 13: jQuery CSS() Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13
+    
 
 
     

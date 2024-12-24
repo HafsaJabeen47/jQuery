@@ -53,3 +53,36 @@
 .red{
     color: red;
 }
+
+
+.add-remove-class-cont{
+    border: 1px solid black;
+    height: 220px;
+}
+
+.add-remove-class{
+    border: 1px solid grey;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: rgb(174, 220, 205); */
+}
+.buttons{
+    margin: 20px 20px 20px 100px;
+    display: flex;
+    gap: 10px;
+}
+.buttons button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.first{
+    background-color: rgb(174, 220, 205);
+}
+.second{
+    background-color: bisque;
+}

@@ -1,4 +1,4 @@
-// Video: 10 jQuery Get Methods:     ~~~Notes~~~
+// Video: 11 jQuery Get Methods:     ~~~Notes~~~
 
 
 // set methods mtlb HTML k ander jo elements hen un k ander DOM k zariye ko value set krna chahty hen to us k lye hun set methods ka use krty hen.
