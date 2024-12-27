@@ -194,7 +194,9 @@ $(document).ready(function(){
 
 
     // video 13: jQuery CSS() Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13
-    
+    $('.css-method-btn').click(function(){
+        $('.css-method-box').css('background-color', 'pink');
+    });
 
 
     
