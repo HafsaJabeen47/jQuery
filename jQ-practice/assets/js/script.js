@@ -194,9 +194,19 @@ $(document).ready(function(){
 
 
     // video 13: jQuery CSS() Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13
+    // is treqy yani parentheses me aik css apply hoti hai agr hum ne multiple css properties apply krni hen to us k lye hum curly braces ka use kren gen wo me nechy alg se kr k dekhati hun.
+    // round braces yani k pranthese for single property:
     $('.css-method-btn').click(function(){
         $('.css-method-box').css('background-color', 'pink');
     });
+
+    // curly braces for multiple css properties:
+    $('.css-method-btn').click(function(){
+        $('.css-method-box').css({'background-color': 'pink', 'font-size': '22px', 'color': 'green', 'border': '5px dotted red'});
+    });
+
+
+
 
 
     
