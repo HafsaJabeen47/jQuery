@@ -7,3 +7,7 @@
 // contextmenu()
 // mouseenter()
 // mouseleave()
+
+
+
+// NOTE: lecture 14 on() and off() method are relevant to events.
