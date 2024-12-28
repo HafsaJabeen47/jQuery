@@ -211,9 +211,34 @@ $(document).ready(function(){
     // video 14: jQuery on() & off() Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14
     // on() single event Method:
     $('.on-method-box').on('click', function(){
-        $('.on-method-box').css({'background-color': 'orange', 'color': 'white'});
+        $(this).css({'background-color': 'orange', 'color': 'white'});
     });
 
+
+    // agr ap 2 alg alg events per ame kam krwana chahty hen to usy esy likhen gen. jesy mene mouseover mouseout likha hai.
+    $('.on-method-box').on('mouseover mouseout', function(){
+        $(this).toggleClass('onClass')
+    });
+
+
+    // how to apply multiple events on one HTML element using jQuery on() method?
+    // on() multiple events Method:
+    $('.on-method-box').on({
+        'click' : function(){
+            $(this).css({'background-color': 'black', 'color' : 'white'});
+        },
+        'mouseover' : function(){
+            $(this).css({'background-color': 'green', 'color' : 'pink'});
+        },
+        'mouseout' : function(){
+            $(this).css({'background-color': 'lightblue', 'color' : 'black'});
+        }
+    });
+
+    // off() Method:
+    $('.on-off-method-btn').click(function(){
+        $('.on-method-box').off('mouseover mouseout')
+    });
 
 
 

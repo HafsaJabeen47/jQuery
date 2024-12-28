@@ -108,10 +108,14 @@
     gap: 10px;
 }
 
-.css-method-btn, .on-method-btn{
+.css-method-btn, .on-off-method-btn{
     margin-left: 20px;
-    width: 90px;
+    width: 120px;
     padding: 5px 10px;
     cursor: pointer;
 
+}
+
+.onClass{
+    background-color: aqua;
 }
