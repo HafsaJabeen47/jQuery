@@ -208,7 +208,7 @@ $(document).ready(function(){
 
 
 
-    // video 13: jQuery on() & off() Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14
+    // video 14: jQuery on() & off() Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14
     // on() single event Method:
     $('.on-method-box').on('click', function(){
         $('.on-method-box').css({'background-color': 'orange', 'color': 'white'});
