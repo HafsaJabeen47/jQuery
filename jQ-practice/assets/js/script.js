@@ -242,6 +242,9 @@ $(document).ready(function(){
 
 
 
+    // video 15: jQuery Append & Prepend Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15
+
+
 
     
 
