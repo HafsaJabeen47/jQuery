@@ -284,7 +284,15 @@ $(document).ready(function(){
 
 
     // video 18: jQuery appendTo & prependTo Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18
-    
+    // prepenTo()
+    $(content).prependTo(selector)
+    $('<p> Hello world </p>').prependTo('#box')
+
+    // prepend()
+    $(selector).prepend(content)
+    $('#box').prependTo('<p> Hello world </p>')
+
+    // Lecture 18 ki example practice krna baqi hai.
     
 
 
