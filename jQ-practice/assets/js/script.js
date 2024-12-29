@@ -243,7 +243,49 @@ $(document).ready(function(){
 
 
     // video 15: jQuery Append & Prepend Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15
+    // append()
+    $('.append-method-btn').click(function(){
+        $('.append-method-box').append('<h4> Using jQuery Append Method: </h4> ')
+    });
 
+    // prepend()
+    $('.prepend-method-btn').click(function(){
+        $('.append-method-box').prepend('<h4> Using jQuery Prepend Method: </h4> ')
+    });
+
+
+
+    // video 16: jQuery Append & Prepend Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16
+    //  before
+     $('.before-method-btn').click(function(){
+        $('.append-method-box').before('<h4> Hello! Using jQuery Before Method: </h4> ')
+    });
+
+    // after()
+    $('.after-method-btn').click(function(){
+        $('.append-method-box').after('<h4> Hello! Using jQuery After Method: </h4><p> hello this is paragraph </p> ')
+    });
+
+
+
+    // video 17: jQuery remove & empty Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17
+    $('.remove-empty-method-box').css('background-color', 'cadetblue')
+
+    // remove()
+    $('.remove-method-btn').click(function(){
+        $('.remove-empty-method-box').css('background-color', 'cadetblue')
+        $('.remove-empty-method-box').remove()
+    });
+
+    // empty()
+    $('.empty-method-btn').click(function(){
+        $('.remove-empty-method-box h3').empty()
+    });
+
+
+    // video 18: jQuery appendTo & prependTo Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18
+    
+    
 
 
     

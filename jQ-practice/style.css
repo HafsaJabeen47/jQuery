@@ -88,7 +88,7 @@
 }
 
 
-.css-method, .on-method{
+.css-method, .on-method, .append-method, .remove-empty-method{
     width: 100%;
     padding: 20px;
     border: 1px solid black;
@@ -98,7 +98,7 @@
     gap: 10px;
 }
 
-.css-method-box, .on-method-box{
+.css-method-box, .on-method-box, .append-method-box, .remove-empty-method-box{
     margin: 10px;
     border: 1px solid black;
     width: 50%;
@@ -108,7 +108,7 @@
     gap: 10px;
 }
 
-.css-method-btn, .on-off-method-btn{
+.css-method-btn, .on-off-method-btn, .append-method-btn, .prepend-method-btn, .before-method-btn, .after-method-btn, .remove-method-btn, .empty-method-btn{
     margin-left: 20px;
     width: 120px;
     padding: 5px 10px;
