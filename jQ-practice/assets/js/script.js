@@ -296,8 +296,10 @@ $(document).ready(function(){
 
 
     // video 19: jQuery clone Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19
-    
-    
+    $('.clone-btn').click(function(){
+        $('.one h2').clone().prependTo('.two');
+    });
+    // why this code is not working?
 
 
     

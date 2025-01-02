@@ -108,7 +108,7 @@
     gap: 10px;
 }
 
-.css-method-btn, .on-off-method-btn, .append-method-btn, .prepend-method-btn, .before-method-btn, .after-method-btn, .remove-method-btn, .empty-method-btn{
+.css-method-btn, .on-off-method-btn, .append-method-btn, .prepend-method-btn, .before-method-btn, .after-method-btn, .remove-method-btn, .empty-method-btn, .clone-btn{
     margin-left: 20px;
     width: 120px;
     padding: 5px 10px;
@@ -126,14 +126,23 @@
     border: 1px solid red;
     padding: 20px;
     display: flex;
+    flex-direction: column;
     gap: 10px;
 }
-
+.cont1{
+    display: flex;
+    gap: 10px;
+}
 .clone-box{
     border: 1px solid black;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
+}
+.one{
+    background-color: pink;
+}
+.two{
+    background-color: cadetblue;
 }
