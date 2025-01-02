@@ -293,6 +293,10 @@ $(document).ready(function(){
     $('#box').prependTo('<p> Hello world </p>')
 
     // Lecture 18 ki example practice krna baqi hai.
+
+
+    // video 19: jQuery clone Method:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19
+    
     
 
 

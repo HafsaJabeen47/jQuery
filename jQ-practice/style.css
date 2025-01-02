@@ -119,3 +119,21 @@
 .onClass{
     background-color: aqua;
 }
+
+.clone-parent-container{
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.clone-box{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
